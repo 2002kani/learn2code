@@ -1,3 +1,4 @@
+import Generics from "./generics"
 
 function App() {
 
@@ -132,7 +133,7 @@ function App() {
   
   
   return (
-    <></>
+    <Generics/>
   )
 }
 
