@@ -70,7 +70,66 @@ function App() {
       console.log(`Mein name ist ${char}`);
     })
   }
-  numberFunction(CharArray); */
+  numberFunction(CharArray);
+
+  let name: string | number;
+  name = 23;
+
+  const testFunc = (val: string | number): string | number => {
+    if(typeof val === "string" ){
+      return val.toLocaleLowerCase();
+    }
+    return val + 2;
+  }
+
+  console.log(testFunc(10));
+  console.log(testFunc("KANIII"));
+
+
+ //userCard ist von Typ Array mit folgenden Datentypen in den Elementen: 
+  let userCard: [string, number, string, boolean];
+  userCard = ["Kani", 23, "Student", true];
+
+  type User = [number, string];
+  const newUser: User = [23, "Kani"];
+
+  console.log(newUser); 
+
+
+  enum Status {
+    loading,
+    success,
+    error
+  }
+
+  const testStatus = (stat: Status): string => {
+    switch(stat){
+      case Status.loading: return "Lädt..."
+      case Status.success: return "Erfolg..!"
+      case Status.error: return "Error..."
+    }
+  }
+
+  console.log(testStatus(2));
+
+  interface User {
+    email: string,
+    userId: number,
+    isPaid: boolean,
+
+    startTrial(): string,
+    getCoupon(couponname: string, value: number): number
+  }
+
+  let KanisAcc: User = {email: "k@gmail.com", userId: 123, isPaid: true,
+                        startTrial: ():string => { return "Trial gestartet..."},
+                        getCoupon: (name: "Kani10", value: 10):number => { return 10}
+  }
+  
+  console.log(KanisAcc); */
+
+  
+  
   
   return (
     <></>
