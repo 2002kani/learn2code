@@ -1,6 +1,17 @@
-import Generics from "./generics"
+//import Generics from "./generics"
+import Api1 from "./api1.0"
+// import "./app.css"
 
 function App() {
+
+  return (
+    //<Generics />
+    <Api1 />
+  )
+}
+
+export default App
+
 
   /*let userId: string;
   
@@ -128,13 +139,3 @@ function App() {
   }
   
   console.log(KanisAcc); */
-
-  
-  
-  
-  return (
-    <Generics/>
-  )
-}
-
-export default App
