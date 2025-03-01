@@ -17,22 +17,36 @@ const fetcher = (url:string) => fetch(url).then((respone) => respone.json());
 
 const Produktliste = () => {
 
-    const [filteredProducts, setFilteredProducts] = useState();
+    const [suche, setSuche] = useState("");
 
     const { data, error, isLoading } = useSWR<ProduktResponse>("https://dummyjson.com/products", fetcher);
 
     // Naive Error Handling
     if(isLoading) return <h1>Lädt..</h1>
     if(error) return <h1>Fehler beim Laden der Seite!</h1>
-    
+
+    const filteredProducts = data?.products.filter((product) => 
+        product.title.toLowerCase().includes(suche.toLowerCase()))
+
+    const handleSearchChange = (e:React.ChangeEvent<HTMLInputElement>) => {
+        setSuche(e.target.value);
+        console.log("Suchfeld geändert: ", e.target.value);
+    }
+
     return(
         <div className="produktliste">
             <div className="suchleiste">
-                <input type="text" className="suchleiste-input"/>
+                <input 
+                className="suchleiste-input"
+                type="text" 
+                placeholder="Produkte.."
+                value={suche}
+                onChange={handleSearchChange}/>
             </div>
 
             <div className="product-list">
-                {data?.products.map((product) => (
+                
+                {filteredProducts?.map((product) => (
                     <div className="product" key={product.id}>
                         <img src={product.thumbnail} alt="" />
                         <h3>{product.title}</h3>
