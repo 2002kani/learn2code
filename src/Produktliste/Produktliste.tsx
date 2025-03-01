@@ -13,7 +13,7 @@ interface ProduktResponse {
     products: Produkt[];
 }
 
-const fetcher = (url:string) => fetch(url).then((respone) => respone.json());                   
+const fetcher = (url:string) => fetch(url).then((response) => response.json());                   
 
 const Produktliste = () => {
 
