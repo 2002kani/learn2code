@@ -13,13 +13,11 @@ const APIPOST = () => {
             completed: false,
             userId: 5,
         })
-    }).then(() => {
-        console.log("Neue Todo added!");
-    })
+    }).then((res) => res.json()).then(console.log);
 
     return(
         <div className="apiPOST">
-            
+
         </div>
     );
 }
