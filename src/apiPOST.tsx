@@ -1,18 +1,20 @@
 import { useState } from "react";
 import "./apiPOST"
 
+interface todo {
+    todo: string,
+    completed: boolean,
+    userId: number,
+}
+
 const APIPOST = () => {
 
-    const [isLoading, setIsLoading] = useState();
+    const [isLoading, setIsLoading] = useState(false);
 
     fetch('https://dummyjson.com/todos/add', {
         method: "POST",
         headers: { "Content-Type" : "application/json" },
-        body: JSON.stringify({
-            todo: "Beispiel todo name",
-            completed: false,
-            userId: 5,
-        })
+        body: JSON.stringify({todo: "hi"})
     }).then((res) => res.json()).then(console.log);
 
     return(
