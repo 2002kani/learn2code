@@ -1,14 +1,16 @@
 //import Generics from "./generics"
 //import Api1 from "./api1.0"
 // import "./app.css"
-import APIPOST from "./apiPOST"
+//import APIPOST from "./apiPOST"
+import Produktliste from "./Produktliste/Produktliste"
 
 function App() {
 
   return (
     //<Generics />
     //<Api1 />
-    <APIPOST />
+    //<APIPOST />
+    <Produktliste />
   )
 }
 

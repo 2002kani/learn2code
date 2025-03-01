@@ -14,7 +14,7 @@ const APIPOST = () => {
     fetch('https://dummyjson.com/todos/add', {
         method: "POST",
         headers: { "Content-Type" : "application/json" },
-        body: JSON.stringify({todo: "hi"})
+        body: JSON.stringify({todo: "hi", userId: 2})
     }).then((res) => res.json()).then(console.log);
 
     return(
