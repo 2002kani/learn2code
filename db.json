@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "userId": 1,
+      "id": "2",
+      "title": "Programmieren lernen",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "4",
+      "title": "chillen",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "5",
+      "title": "Staubsaugen und hausarbeit",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "6",
+      "title": "Lernen und müll wegbringen",
+      "completed": true
+    },
+    {
+      "id": "8",
+      "userId": 1,
+      "title": "Irgendwas machen amk",
+      "completed": false
+    },
+    {
+      "id": "bcfb",
+      "title": "ee",
+      "completed": false
+    }
+  ]
+}
