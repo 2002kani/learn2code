@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import "./Produktliste.css";
+//import "./Produktliste.css";
 import { useState } from "react";
 
 interface Produkt {

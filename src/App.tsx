@@ -2,7 +2,7 @@
 //import Api1 from "./api1.0"
 // import "./app.css"
 //import APIPOST from "./apiPOST"
-import Produktliste from "./Produktliste/Produktliste"
+//import Produktliste from "./Produktliste/Produktliste"
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
     //<Generics />
     //<Api1 />
     //<APIPOST />
-    <Produktliste />
-  )
+    //<Produktliste />
+  );
 }
 
 export default App
