@@ -1,34 +1,16 @@
 {
   "workouts": [
     {
-      "id": 1,
-      "exercise": "Push-Ups",
-      "reps": 20,
-      "sets": 3,
-      "category": "Kraft",
-      "date": "2025-03-01",
-      "notes": "Letzter Satz war hart"
-    },
-    {
-      "id": 2,
-      "exercise": "Squats",
-      "reps": 15,
-      "sets": 4,
-      "category": "Beine",
-      "date": "2025-03-02",
-      "notes": "Beine brennen!"
-    },
-    {
-      "id": 3,
+      "id": "3",
       "exercise": "Bizeps Curls",
       "reps": 12,
       "sets": 3,
       "category": "Kraft",
       "date": "2025-03-03",
-      "notes": "Gewicht erhöhen?"
+      "notes": ""
     },
     {
-      "id": 4,
+      "id": "4",
       "exercise": "Joggen",
       "distance_km": 5,
       "duration_min": 30,
@@ -37,30 +19,84 @@
       "notes": "Tempo gesteigert"
     },
     {
-      "id": 5,
+      "id": "5",
       "exercise": "Plank",
       "duration_sec": 60,
       "sets": 2,
       "category": "Core",
       "date": "2025-03-04",
       "notes": "Haltezeit verlängern"
+    },
+    {
+      "id": "6d81",
+      "exercise": "Bankdrücken",
+      "reps": 10,
+      "sets": 3,
+      "notes": "War miees schwer"
+    },
+    {
+      "id": "3b30",
+      "exercise": "Bankdrücken",
+      "reps": 10,
+      "sets": 3,
+      "notes": "War miees schwer"
+    },
+    {
+      "id": "d9f2",
+      "exercise": "Bankdrücken",
+      "reps": 10,
+      "sets": 3,
+      "notes": "War miees schwer"
+    },
+    {
+      "id": "4f4d",
+      "exercise": "Bankdrücken",
+      "reps": 10,
+      "sets": 3,
+      "notes": "War miees schwer"
+    },
+    {
+      "id": "7679",
+      "exercise": "Bankdrücken",
+      "reps": 10,
+      "sets": 3,
+      "notes": "War miees schwer"
+    },
+    {
+      "id": "6040",
+      "exercise": "Bankdrücken",
+      "reps": 10,
+      "sets": 3,
+      "notes": "War miees schwer"
     }
   ],
   "categories": [
-    { "id": 1, "name": "Kraft" },
-    { "id": 2, "name": "Beine" },
-    { "id": 3, "name": "Ausdauer" },
-    { "id": 4, "name": "Core" }
+    {
+      "id": "1",
+      "name": "Kraft"
+    },
+    {
+      "id": "2",
+      "name": "Beine"
+    },
+    {
+      "id": "3",
+      "name": "Ausdauer"
+    },
+    {
+      "id": "4",
+      "name": "Core"
+    }
   ],
   "goals": [
     {
-      "id": 1,
+      "id": "1",
       "title": "10 km Joggen",
       "completed": false,
       "target_date": "2025-04-01"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "50 Push-Ups am Stück",
       "completed": false,
       "target_date": "2025-04-15"

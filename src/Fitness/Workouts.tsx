@@ -18,13 +18,28 @@ const Workouts = () => {
 
     const { isLoading, data, error } = useGetWorkouts();
 
-    const [newWorkout, setNewWorkout] = useState("");
+    const [newNote, setNewNote] = useState("");
+    //const [setEditingWorkoutId, setEditingWorkoutId] = useState(null)
 
     if(isLoading) return <h1> Lädt.. </h1>
     if(error) return <h1> Fehler beim Laden der Seite </h1>
 
-    const handleAddWorkout = () => {
-        
+    const handleAddWorkout = async () => {
+        await addWorkout({ exercise: "Bankdrücken", reps: 10, sets: 3, notes: "War miees schwer"})
+    }
+
+    const handleUpdateWorkout = async (id: number) => {
+        try {
+            await updateWorkout( id, { notes: newNote });
+            //setEditingWorkoutId(null); // Bearbeitungsmodus beenden
+            setNewNote(""); // Eingabefeld zurücksetzen
+        } catch (err) {
+            console.error("Fehler beim Aktualisieren des Workouts:", err);
+        }
+    };
+
+    const handleDeleteWorkout = async (id: number) => {
+         await deleteWorkout(id);
     }
 
 
@@ -35,7 +50,7 @@ const Workouts = () => {
             <div className="workout-list">
                 <div className="header">
                     <h2> Workout Liste </h2>
-                    <button> + Add </button>
+                    <button onClick={handleAddWorkout}> + Add </button>
                 </div>
 
                 <ul>
@@ -43,7 +58,7 @@ const Workouts = () => {
                         <div className="workout" key={workout.id}>
                             <div className="top">
                                 <h3> {workout.exercise} </h3>
-                                <button> x </button>
+                                <button onClick={() => handleDeleteWorkout(workout.id)}> x </button>
                             </div>
 
                             <div className="numbers">
@@ -53,7 +68,7 @@ const Workouts = () => {
 
                             <div className="bottom">
                                 <p> {workout.notes} </p>
-                                <button> Update </button>
+                                <button onClick={()=> handleUpdateWorkout(workout.id)}> Update </button>
                             </div>
                         </div>
                     ))}
