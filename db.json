@@ -1,39 +1,69 @@
 {
-  "todos": [
+  "workouts": [
     {
-      "userId": 1,
-      "id": "2",
-      "title": "Programmieren lernen",
-      "completed": true
+      "id": 1,
+      "exercise": "Push-Ups",
+      "reps": 20,
+      "sets": 3,
+      "category": "Kraft",
+      "date": "2025-03-01",
+      "notes": "Letzter Satz war hart"
     },
     {
-      "userId": 1,
-      "id": "4",
-      "title": "chillen",
-      "completed": true
+      "id": 2,
+      "exercise": "Squats",
+      "reps": 15,
+      "sets": 4,
+      "category": "Beine",
+      "date": "2025-03-02",
+      "notes": "Beine brennen!"
     },
     {
-      "userId": 1,
-      "id": "5",
-      "title": "Staubsaugen und hausarbeit",
-      "completed": false
+      "id": 3,
+      "exercise": "Bizeps Curls",
+      "reps": 12,
+      "sets": 3,
+      "category": "Kraft",
+      "date": "2025-03-03",
+      "notes": "Gewicht erhöhen?"
     },
     {
-      "userId": 1,
-      "id": "6",
-      "title": "Lernen und müll wegbringen",
-      "completed": true
+      "id": 4,
+      "exercise": "Joggen",
+      "distance_km": 5,
+      "duration_min": 30,
+      "category": "Ausdauer",
+      "date": "2025-03-04",
+      "notes": "Tempo gesteigert"
     },
     {
-      "id": "8",
-      "userId": 1,
-      "title": "Irgendwas machen amk",
-      "completed": false
+      "id": 5,
+      "exercise": "Plank",
+      "duration_sec": 60,
+      "sets": 2,
+      "category": "Core",
+      "date": "2025-03-04",
+      "notes": "Haltezeit verlängern"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Kraft" },
+    { "id": 2, "name": "Beine" },
+    { "id": 3, "name": "Ausdauer" },
+    { "id": 4, "name": "Core" }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "10 km Joggen",
+      "completed": false,
+      "target_date": "2025-04-01"
     },
     {
-      "id": "bcfb",
-      "title": "ee",
-      "completed": false
+      "id": 2,
+      "title": "50 Push-Ups am Stück",
+      "completed": false,
+      "target_date": "2025-04-15"
     }
   ]
 }
