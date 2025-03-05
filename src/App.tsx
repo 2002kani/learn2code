@@ -3,7 +3,8 @@
 // import "./app.css"
 //import APIPOST from "./apiPOST"
 //import Produktliste from "./Produktliste/Produktliste"
-import TodoList from "./TodoListe/TodoListe";
+//import TodoList from "./TodoListe/TodoListe";
+import Workouts from "./Fitness/Workouts";
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     //<Api1 />
     //<APIPOST />
     //<Produktliste />
-    <TodoList/>
+    //<TodoList/>
+    <Workouts />
   );
 }
 
