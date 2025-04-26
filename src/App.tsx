@@ -5,7 +5,21 @@
 //import Produktliste from "./Produktliste/Produktliste"
 //import TodoList from "./TodoListe/TodoListe";
 //import Workouts from "./Fitness/Workouts";
-import AccordionPage from "./accordion";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import AccordionPage from "./stuff/accordion";
 
 function App() {
 
@@ -21,6 +35,23 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /*let userId: string;
