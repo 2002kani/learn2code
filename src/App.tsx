@@ -17,10 +17,6 @@
 
 
 
-
-
-import AccordionPage from "./stuff/accordion";
-
 function App() {
 
   return (
@@ -30,7 +26,8 @@ function App() {
     //<Produktliste />
     //<TodoList/>
     //<Workouts />
-    <AccordionPage />
+    //<AccordionPage />
+    <p>hi</p>
   );
 }
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/*import React, { useState, useEffect } from 'react';
 import { useQueryParams, StringParam } from 'use-query-params';
 
 const AccordionPage: React.FC = () => {
@@ -41,4 +41,4 @@ const AccordionPage: React.FC = () => {
   );
 };
 
-export default AccordionPage;
+export default AccordionPage; */
