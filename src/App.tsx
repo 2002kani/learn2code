@@ -4,7 +4,8 @@
 //import APIPOST from "./apiPOST"
 //import Produktliste from "./Produktliste/Produktliste"
 //import TodoList from "./TodoListe/TodoListe";
-import Workouts from "./Fitness/Workouts";
+//import Workouts from "./Fitness/Workouts";
+import AccordionPage from "./accordion";
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
     //<APIPOST />
     //<Produktliste />
     //<TodoList/>
-    <Workouts />
+    //<Workouts />
+    <AccordionPage />
   );
 }
 
