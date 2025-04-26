@@ -1,11 +1,23 @@
 //import Generics from "./generics"
 //import Api1 from "./api1.0"
-// import "./app.css"
+import "./index.css"
 //import APIPOST from "./apiPOST"
 //import Produktliste from "./Produktliste/Produktliste"
 //import TodoList from "./TodoListe/TodoListe";
 //import Workouts from "./Fitness/Workouts";
 
+
+/*
+Alle komponente die ich app hinzgefügt wurden:
+
+    //<Generics />
+    //<Api1 />    
+    //<APIPOST />
+    //<Produktliste />
+    //<TodoList/>
+    //<Workouts />
+    //<AccordionPage />
+*/
 
 
 
@@ -20,14 +32,7 @@
 function App() {
 
   return (
-    //<Generics />
-    //<Api1 />
-    //<APIPOST />
-    //<Produktliste />
-    //<TodoList/>
-    //<Workouts />
-    //<AccordionPage />
-    <p>hi</p>
+    <p>hi, was geht ab</p>
   );
 }
 
