@@ -75,7 +75,7 @@ function App() {
     } else{
       console.log("MediaRecorder ist nicht am laufen.."); /* LOG! */
     }
-  }
+  } 
 
   return (
     <>  
