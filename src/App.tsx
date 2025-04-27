@@ -72,7 +72,7 @@ function App() {
     if(recorder && recorder.state === "recording"){
       recorder.stop()
       console.log("Recorder has stopped! State: ", recorder.state);
-    } else{
+    } else {
       console.log("MediaRecorder ist nicht am laufen.."); /* LOG! */
     }
   } 
