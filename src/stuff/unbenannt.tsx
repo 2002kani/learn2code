@@ -6,7 +6,7 @@ const unbenannt = () => {
         OpCard[num];
     }
 
-return (
+return ( 
     <div>
         <input type="text" />
     </div>
