@@ -1,27 +1,25 @@
 import { useState } from "react";
-import "./apiPOST"
+import "./apiPOST";
 
 interface todo {
-    todo: string,
-    completed: boolean,
-    userId: number,
+  todo: string;
+  completed: boolean;
+  userId: number;
 }
 
 const APIPOST = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [testState, setTestState] = useState(true);
 
-    const [isLoading, setIsLoading] = useState(false);
+  fetch("https://dummyjson.com/todos/add", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ todo: "hi", userId: 2 }),
+  })
+    .then((res) => res.json())
+    .then(console.log);
 
-    fetch('https://dummyjson.com/todos/add', {
-        method: "POST",
-        headers: { "Content-Type" : "application/json" },
-        body: JSON.stringify({todo: "hi", userId: 2})
-    }).then((res) => res.json()).then(console.log);
+  return <div className="apiPOST"></div>;
+};
 
-    return(
-        <div className="apiPOST">
-
-        </div>
-    );
-}
-
-export default APIPOST
+export default APIPOST;
