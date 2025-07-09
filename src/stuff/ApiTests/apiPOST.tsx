@@ -9,7 +9,6 @@ interface todo {
 
 const APIPOST = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const [testState, setTestState] = useState(true);
 
   fetch("https://dummyjson.com/todos/add", {
     method: "POST",
