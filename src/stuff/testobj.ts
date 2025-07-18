@@ -8,4 +8,5 @@ export const OpCard = [
   "Sanji",
   "Nico robin",
   "Collin!",
+  "<test",
 ];
