@@ -10,4 +10,5 @@ export const OpCard = [
   "Collin!",
   "<test",
   "new",
+  "new",
 ];
