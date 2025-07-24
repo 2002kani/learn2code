@@ -12,4 +12,6 @@ export const OpCard = [
   "new",
   "new",
   "new",
+  "new",
+  "new",
 ];
