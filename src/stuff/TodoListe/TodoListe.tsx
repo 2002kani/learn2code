@@ -48,7 +48,9 @@ const TodoList = () => {
         />
         <button onClick={handleAddTodo}> Add </button>
       </div>
-      <div></div>
+      <div>
+        <p>test</p>
+      </div>
 
       <ul className="todolist">
         {data.map((todo: Todo) => (
