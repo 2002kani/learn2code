@@ -19,6 +19,7 @@ const TodoList = () => {
   const addTodo = useAddTodo();
   const updateTodo = useUpdateTodo();
   const deleteTodo = useDeleteTodo();
+  const updateTodo = useUpdateTodo();
 
   const [newTodo, setNewTodo] = useState("");
 
