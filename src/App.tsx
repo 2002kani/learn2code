@@ -1,13 +1,12 @@
 //import Generics from "./generics"
 //import Api1 from "./api1.0"
 //import { useRef, useState } from "react";
-import "./index.css"
-import Unbenannt from "./stuff/unbenannt";
+import "./index.css";
+import gridPattern from "./components/gridPattern";
 //import APIPOST from "./apiPOST"
 //import Produktliste from "./Produktliste/Produktliste"
 //import TodoList from "./TodoListe/TodoListe";
 //import Workouts from "./Fitness/Workouts";
-
 
 /*
 Alle komponente die ich app hinzgefügt wurden:
@@ -19,41 +18,15 @@ Alle komponente die ich app hinzgefügt wurden:
     //<TodoList/>
     //<Workouts />
     //<AccordionPage />
-*/  
- 
- 
-
+*/
 
 function App() {
-
-  return(
-     <>
-      <Unbenannt />
-    </>
-  );
+  return <gridPattern />;
 }
 
-export default App
+export default App;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*let userId: string;
+/*let userId: string;
   
   const testFunc = () => {
     return "HALLOOOO..";
