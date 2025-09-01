@@ -19,6 +19,8 @@ Alle komponente die ich app hinzgefügt wurden:
     //<Workouts />
     //<AccordionPage />
     //soll haben
+    //soll haben
+    //soll haben
 */
 
 function App() {
