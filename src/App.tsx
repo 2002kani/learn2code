@@ -18,7 +18,7 @@ Alle komponente die ich app hinzgefügt wurden:
     //<TodoList/>
     //<Workouts />
     //<AccordionPage />
-    //soll
+    //soll haben
 */
 
 function App() {
