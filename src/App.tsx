@@ -21,7 +21,8 @@ Alle komponente die ich app hinzgefügt wurden:
     //soll haben
     //soll haben
     //soll haben
-*/
+    //soll haben/*
+
 
 function App() {
   return <gridPattern />;
