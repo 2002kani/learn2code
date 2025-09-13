@@ -12,6 +12,7 @@ import gridPattern from "./components/gridPattern";
 Alle komponente die ich app hinzgefügt wurden:
 
     //<Generics />
+    //<Generics />
     //<Api1 />    
     //<APIPOST />
     //<Produktliste />
