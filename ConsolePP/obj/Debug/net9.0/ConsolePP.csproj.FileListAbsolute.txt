@@ -1,0 +1,14 @@
+/Users/kanikaradag/learn2code/c#/ConsolePP/bin/Debug/net9.0/ConsolePP
+/Users/kanikaradag/learn2code/c#/ConsolePP/bin/Debug/net9.0/ConsolePP.deps.json
+/Users/kanikaradag/learn2code/c#/ConsolePP/bin/Debug/net9.0/ConsolePP.runtimeconfig.json
+/Users/kanikaradag/learn2code/c#/ConsolePP/bin/Debug/net9.0/ConsolePP.dll
+/Users/kanikaradag/learn2code/c#/ConsolePP/bin/Debug/net9.0/ConsolePP.pdb
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.AssemblyInfoInputs.cache
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.AssemblyInfo.cs
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.csproj.CoreCompileInputs.cache
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.dll
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/refint/ConsolePP.dll
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.pdb
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ConsolePP.genruntimeconfig.cache
+/Users/kanikaradag/learn2code/c#/ConsolePP/obj/Debug/net9.0/ref/ConsolePP.dll
