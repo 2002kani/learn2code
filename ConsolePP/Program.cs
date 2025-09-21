@@ -10,7 +10,7 @@ namespace ConsoleApp
     {
         static void Main(String[] args)
         {
-            int age = 200;
+            int age =  200;
 
             var newAge = age.ToString();
 
