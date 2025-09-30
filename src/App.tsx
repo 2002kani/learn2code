@@ -3,31 +3,28 @@
 //import { useRef, useState } from "react";
 import "./index.css";
 import gridPattern from "./components/gridPattern";
+import Playground from "./Playground";
 //import APIPOST from "./apiPOST"
 //import Produktliste from "./Produktliste/Produktliste"
 //import TodoList from "./TodoListe/TodoListe";
 //import Workouts from "./Fitness/Workouts";
 
-
-Alle komponente die ich app hinzgefügt wurden:
-
-    //<Generics />
-    //<Generics />
-    //<Generics />
-    //<Api1 />    
-    //<APIPOST />
-    //<Produktliste />
-    //<TodoList/>
-    //<Workouts />
-    //<AccordionPage />
-    //soll haben
-    //soll haben
-    //soll haben
-    //soll haben
-
+//<Generics />
+//<Generics />
+//<Generics />
+//<Api1 />
+//<APIPOST />
+//<Produktliste />
+//<TodoList/>
+//<Workouts />
+//<AccordionPage />
+//soll haben
+//soll haben
+//soll haben
+//soll haben
 
 function App() {
-  return <gridPattern />;
+  return <Playground />;
 }
 
 export default App;
