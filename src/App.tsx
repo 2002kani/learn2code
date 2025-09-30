@@ -8,7 +8,7 @@ import gridPattern from "./components/gridPattern";
 //import TodoList from "./TodoListe/TodoListe";
 //import Workouts from "./Fitness/Workouts";
 
-/*
+
 Alle komponente die ich app hinzgefügt wurden:
 
     //<Generics />
@@ -23,7 +23,7 @@ Alle komponente die ich app hinzgefügt wurden:
     //soll haben
     //soll haben
     //soll haben
-    //soll haben/*
+    //soll haben
 
 
 function App() {
