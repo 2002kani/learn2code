@@ -5,6 +5,7 @@ const BASE_URL = "http://localhost:3000/workouts";
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 const fetcher2 = (url: string) => fetch(url).then((res) => res.json());
+const fetcher2 = (url: string) => fetch(url).then((res) => res.json());
 
 // GET - Workouts bekommen
 export const useGetWorkouts = () => {
