@@ -12,4 +12,11 @@ const person: IPerson = {
   birth: "Unna",
 };
 
-console.log(person);
+const person2: IPerson = {
+  id: 1,
+  name: "Kani",
+  age: 23,
+  birth: "Unna",
+};
+
+console.log(person, person2);
