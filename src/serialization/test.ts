@@ -26,4 +26,11 @@ const person3: IPerson = {
   birth: "Polen",
 };
 
+const person4: IPerson = {
+  id: 4,
+  name: "Leon",
+  age: 34,
+  birth: "Finnland",
+};
+
 console.log(person, person2, person3);
