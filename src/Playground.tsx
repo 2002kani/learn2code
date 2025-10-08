@@ -26,6 +26,7 @@ const parsed = JSON.parse(ObjToJson);
 
 console.log(ObjToJson);
 console.log(parsed.age);
+console.log(person2);
 
 function Playground() {
   return <div>Playground</div>;
