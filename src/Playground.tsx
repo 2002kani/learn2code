@@ -8,7 +8,7 @@ interface IPerson {
 }
 
 const person: IPerson = {
-  id: 1,
+  id: 12,
   name: "Kani",
   age: 23,
   birth: "Unna",
