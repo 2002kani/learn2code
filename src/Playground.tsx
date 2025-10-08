@@ -14,6 +14,13 @@ const person: IPerson = {
   birth: "Unna",
 };
 
+const person2: IPerson = {
+  id: 1,
+  name: "Kani",
+  age: 23,
+  birth: "Unna",
+};
+
 const ObjToJson = JSON.stringify(person);
 const parsed = JSON.parse(ObjToJson);
 
