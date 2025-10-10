@@ -21,12 +21,20 @@ const person2: IPerson = {
   birth: "Unna",
 };
 
+const person3: IPerson = {
+  id: 1,
+  name: "Kani",
+  age: 23,
+  birth: "Unna",
+};
+
 const ObjToJson = JSON.stringify(person);
 const parsed = JSON.parse(ObjToJson);
 
 console.log(ObjToJson);
 console.log(parsed.age);
 console.log(person2);
+console.log(person4);
 
 function Playground() {
   return <div>Playground</div>;
