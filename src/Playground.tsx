@@ -1,5 +1,7 @@
 // Console Playground
 
+import { useEffect } from "react";
+
 interface IPerson {
   id: number;
   name: string;
@@ -44,6 +46,7 @@ console.log(person2);
 console.log(person4);
 
 function Playground() {
+  useEffect(() => {}, []);
   return <div>Playground</div>;
 }
 
