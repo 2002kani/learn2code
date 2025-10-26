@@ -1,9 +1,9 @@
 //import Generics from "./generics"
 //import Api1 from "./api1.0"
 //import { useRef, useState } from "react";
-import "./index.css";
-import gridPattern from "./components/gridPattern";
-import Playground from "./Playground";
+// import "./index.css";
+//import gridPattern from "./components/gridPattern";
+import Playground from "./playground/Playground";
 //import APIPOST from "./apiPOST"
 //import Produktliste from "./Produktliste/Produktliste"
 //import TodoList from "./TodoListe/TodoListe";
