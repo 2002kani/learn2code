@@ -19,11 +19,17 @@ const BASE_URL = "http://localhost:5100";
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 function Playground() {
-  const { data } = useSWR<workoutResponse>(`${BASE_URL}/workouts`, fetcher);
+  const { data } = useSWR<workout[]>(`${BASE_URL}/workouts`, fetcher);
   const [inputVal, setInputVal] = useState("");
+
+  if (!data) return <div>Lädt...</div>;
 
   console.log(data);
   console.log("INPUT VAL: ", inputVal);
+
+  const queriedWorkouts = data.filter((workout) =>
+    workout.exercise.toLowerCase().includes(inputVal.toLowerCase())
+  );
 
   return (
     <>
@@ -34,7 +40,15 @@ function Playground() {
       />
       <button>Send</button>
 
-      <div></div>
+      <div>
+        <ul>
+          {queriedWorkouts.length > 0 ? (
+            queriedWorkouts.map((workout) => <li>{workout.exercise}</li>)
+          ) : (
+            <li>Keine Workouts gefunden</li>
+          )}
+        </ul>
+      </div>
     </>
   );
 }
