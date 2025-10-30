@@ -41,7 +41,7 @@ function Playground() {
     const newWorkout: workout = {
       exercise: exercise,
       reps: 10,
-      sets: 21,
+      sets: 20,
       category: "Test",
       date: "DATA",
       notes: "string",
