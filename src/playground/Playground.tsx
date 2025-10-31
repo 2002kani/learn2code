@@ -48,6 +48,7 @@ function Playground() {
     };
 
     console.log(newWorkout);
+
     addWorkout(newWorkout);
   };
 
