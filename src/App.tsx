@@ -136,7 +136,7 @@ export default App;
       case Status.success: return "Erfolg..!"
       case Status.error: return "Error..."
     }
-  }
+  } 
 
   console.log(testStatus(2));
 
