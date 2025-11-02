@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kanikaradag/learn2code/learn2code/ConsolePP/ConsolePP.csproj": {}
+    "/Users/kanikaradag/learn2code/learn2code/FirstApi/FirstApi.csproj": {}
   },
   "projects": {
-    "/Users/kanikaradag/learn2code/learn2code/ConsolePP/ConsolePP.csproj": {
+    "/Users/kanikaradag/learn2code/learn2code/FirstApi/FirstApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kanikaradag/learn2code/learn2code/ConsolePP/ConsolePP.csproj",
-        "projectName": "ConsolePP",
-        "projectPath": "/Users/kanikaradag/learn2code/learn2code/ConsolePP/ConsolePP.csproj",
+        "projectUniqueName": "/Users/kanikaradag/learn2code/learn2code/FirstApi/FirstApi.csproj",
+        "projectName": "FirstApi",
+        "projectPath": "/Users/kanikaradag/learn2code/learn2code/FirstApi/FirstApi.csproj",
         "packagesPath": "/Users/kanikaradag/.nuget/packages/",
-        "outputPath": "/Users/kanikaradag/learn2code/learn2code/ConsolePP/obj/",
+        "outputPath": "/Users/kanikaradag/learn2code/learn2code/FirstApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kanikaradag/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

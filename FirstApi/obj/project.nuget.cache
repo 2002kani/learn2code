@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hIij62NWQOQ=",
+  "success": true,
+  "projectFilePath": "/Users/kanikaradag/learn2code/learn2code/FirstApi/FirstApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/kanikaradag/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/kanikaradag/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

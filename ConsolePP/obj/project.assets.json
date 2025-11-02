@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kanikaradag/learn2code/c#/ConsolePP/ConsolePP.csproj",
+      "projectUniqueName": "/Users/kanikaradag/learn2code/learn2code/ConsolePP/ConsolePP.csproj",
       "projectName": "ConsolePP",
-      "projectPath": "/Users/kanikaradag/learn2code/c#/ConsolePP/ConsolePP.csproj",
+      "projectPath": "/Users/kanikaradag/learn2code/learn2code/ConsolePP/ConsolePP.csproj",
       "packagesPath": "/Users/kanikaradag/.nuget/packages/",
-      "outputPath": "/Users/kanikaradag/learn2code/c#/ConsolePP/obj/",
+      "outputPath": "/Users/kanikaradag/learn2code/learn2code/ConsolePP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kanikaradag/.nuget/NuGet/NuGet.Config"
