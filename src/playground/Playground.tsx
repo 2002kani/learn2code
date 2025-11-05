@@ -52,6 +52,8 @@ function Playground() {
     addWorkout(newWorkout);
   };
 
+  console.log("");
+
   return (
     <>
       <input
