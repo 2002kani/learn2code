@@ -52,7 +52,7 @@ function Playground() {
     addWorkout(newWorkout);
   };
 
-  console.log("");
+  console.log("tets");
 
   return (
     <>
