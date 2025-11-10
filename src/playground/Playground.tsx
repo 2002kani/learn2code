@@ -4,6 +4,7 @@ import useSWR from "swr";
 interface workout {
   exercise: string;
   reps: number;
+
   sets: number;
   category: string;
   date: string;
