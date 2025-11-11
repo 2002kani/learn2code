@@ -21,7 +21,6 @@ const addWorkout = async (workout: workout) => {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(workout),
   });
-
   return res.json();
 };
 
