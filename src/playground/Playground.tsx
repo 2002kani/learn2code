@@ -10,6 +10,7 @@ interface workout {
   date: string;
   name: string;
   age: number;
+  home: string;
   notes: string;
 }
 
