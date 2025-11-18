@@ -8,6 +8,7 @@ interface workout {
   sets: number;
   category: string;
   date: string;
+  name: string;
   notes: string;
 }
 
