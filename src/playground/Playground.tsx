@@ -12,7 +12,7 @@ interface workout {
   age: number;
   home: string;
   notes: string;
-  note: string;
+  noten: string;
 }
 
 const BASE_URL = "http://localhost:5100";
