@@ -12,6 +12,7 @@ interface workout {
   age: number;
   ge: number;
   rge: number;
+  trge: number;
   ddge: number;
   home: string;
   notes: string;
